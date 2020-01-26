@@ -1,0 +1,31 @@
+.root {
+	-fx-background-color: white;
+	-fx-border-width: 1px;
+	-fx-border-color: black;
+	-fx-font-family: monospace;
+}
+
+.top-pane {
+	-fx-padding: 0px;
+	-fx-background-color: transparent;
+	-fx-alignment: center-right;
+}
+
+.close-button {
+	-fx-text-fill: black;
+	-fx-background-color: white;
+	-fx-background-insets: 0px; 
+	-fx-background-radius: 0px 0px 0px 7px;
+	-fx-border-width: 0px 0.0px 1px 1px;
+	-fx-border-color: black;
+	-fx-border-style: dashed;
+	-fx-border-radius: 0px 0px 0px 7px;
+}
+.close-button:hover {
+	-fx-text-fill: white;
+	-fx-background-color: red;	
+}
+.close-button:pressed {
+	-fx-text-fill: white;
+	-fx-background-color: rgb(255,106,111);		
+}
